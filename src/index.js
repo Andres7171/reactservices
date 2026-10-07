@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ComponentApiCustomers from './components/ComponentServiceCustomers';
+import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
+import EmpleadosDepartamentos from './components/EmpleadosDepartamentos';
+import EmpleadosOficios from './components/EmpleadosOficios';
 //https://services.odata.org/V4/Northwind/Northwind.svc/ 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  
+    <EmpleadosOficios/>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
